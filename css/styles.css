@@ -28,6 +28,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    max-width: 1600px;
+    margin: 0px auto;
+
 }
 
 .header .logo {
@@ -118,3 +121,16 @@ body {
 .btn:hover {
     background-color: #ff5c4d;
 }
+
+/* Texto principal */
+
+.text-container h1 {
+    font-size: 50px;
+    margin: 50px 0 20px;
+    line-height: 1.2;
+}
+
+.text-container{
+    font-size: 18px;
+}
+
