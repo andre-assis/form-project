@@ -52,3 +52,69 @@ body {
     color: purple;
 }
 
+/* Conteúdo*/
+
+.main-content {
+    display: flex;   
+    gap: 50px;
+    max-width: 1100px;
+    margin: 200px auto;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    padding: 0 40px;
+}
+
+.main-content form {
+    flex: 1;
+}
+
+.main-content .text-container {
+    flex: 1;
+}
+
+/* Formulário */
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.4);
+    color: white;
+    outline: 0;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    padding: 15px 20px;
+    border-radius: 20px;
+    width: 100%;
+    border:0;
+    background-color: #ff4032;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff5c4d;
+}
